@@ -17,7 +17,7 @@ def buscar_nomes_funcionarios():
 
         return nomes
     except Error as e:
-        print(f"Erro ao buscar nomes dos funcionários: {e}")
+        print(f"Erro ao buscar nomes dos funcionário: {e}")
     finally:
         if con.is_connected():
             cursor.close()
